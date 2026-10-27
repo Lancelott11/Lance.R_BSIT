@@ -6,8 +6,8 @@ for x in range (1, 6) :
     print()
 p = int(input("How many rows?"))
 g = 1 
-for x in range (1, p + 1) :
-    for y in range (x) :
+for x in range (5) :
+    for y in range (x + 1) :
         print(g, end="  ")
-        g += 1
+        g = g + 1
     print()
